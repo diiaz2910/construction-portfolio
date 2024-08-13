@@ -1,5 +1,12 @@
 import gsap from "gsap";
 import { useEffect } from "react";
+import { MantineProvider } from "@mantine/core";
+
+// components
+import Hero from "./components/Hero";
+import Header from "./components/Header";
+
+//styles
 
 const App = () => {
   useEffect(() => {
@@ -7,9 +14,10 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Welcome To My Portfolio</h1>
-    </div>
+    <MantineProvider>
+      <Header />
+      <Hero />
+    </MantineProvider>
   );
 };
 
