@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { MantineProvider } from "@mantine/core";
 
 // components
-import Hero from "./components/Hero";
-import Header from "./components/Header";
+import Hero from "./components/Hero/Hero";
+import Header from "./components/Header/Header";
 
 //styles
 
