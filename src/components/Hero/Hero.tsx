@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Container, Text, Title, SimpleGrid } from "@mantine/core";
 
 // styles
-import styles from "../styles/Hero.module.css";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   useEffect(() => {

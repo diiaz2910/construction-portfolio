@@ -1,7 +1,11 @@
 import { Container, SimpleGrid, Text, Title } from "@mantine/core";
-import styles from "../styles/Header.module.css";
 import { useEffect } from "react";
+
+//gsap
 import gsap from "gsap";
+
+//styles
+import styles from "./Header.module.css";
 
 const Header = () => {
   useEffect(() => {
