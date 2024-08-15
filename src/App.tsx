@@ -3,8 +3,9 @@ import { useEffect } from "react";
 import { MantineProvider } from "@mantine/core";
 
 // components
-import Hero from "./components/Hero/Hero";
+import Hero from "./components/Hero/AboutUs";
 import Header from "./components/Header/Header";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const App = () => {
     <MantineProvider>
       <Header />
       <Hero />
+      <Portfolio />
     </MantineProvider>
   );
 };
