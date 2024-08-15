@@ -1,15 +1,55 @@
-.heroContainer {
-  padding: 120px 0;
-  text-align: center;
-  width: 100%;
-  background-color: rgb(209, 209, 226);
-  height: 200px;
+.headerContainer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(28, 26, 31, 255);
+  padding: 5px 0;
   border-radius: 1em;
+  margin-bottom: 3em;
+  height: 400px;
+  position: relative;
+  margin-top: 2em;
 }
 
-.heroText {
-  font-size: 60px !important;
-  font-weight: bold;
-  margin-top: 10px;
-  padding-right: 20em;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.headerContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  z-index: 1;
+  border-radius: 1em;
+  border-top: #ffffff 2px solid;
+  border-bottom: #ffffff 2px solid;
+}
+
+.heroContainer {
+  position: relative;
+  z-index: 2;
+}
+
+.heroTextRight {
+  font-size: 40px !important;
+  max-width: 1200px;
+  margin-top: 2em;
+  left: 15em;
+  color: #ffffff;
+  position: absolute;
+}
+
+.heroTextLeftTop {
+}
+
+.heroTextLeftBottom {
 }

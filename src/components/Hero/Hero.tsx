@@ -1,35 +1,21 @@
-import gsap from "gsap";
-import { useEffect } from "react";
-import { Container, Text, Title, SimpleGrid } from "@mantine/core";
+import { Container, SimpleGrid, Text } from "@mantine/core";
 
-// styles
+//gsap
+
+//styles
 import styles from "./Hero.module.css";
 
 const Hero = () => {
-  useEffect(() => {
-    gsap.fromTo(
-      `.${styles.heroText}`,
-      { opacity: 0, y: -50 },
-      { opacity: 1, y: 0, duration: 1.5, ease: "power3.out" }
-    );
-  }, []);
-
   return (
     <SimpleGrid>
-      <Container size="lg" className={styles.heroContainer}>
-        <Title
-          className={styles.heroText}
-          style={{ fontSize: "1.5rem", marginTop: "20px" }}
-        >
-          Welcome to my portfolio
-        </Title>
-        <Text
-          className={styles.heroText}
-          style={{ fontSize: "1.5rem", marginTop: "20px" }}
-        >
-          I'm building a portfolio
-        </Text>
-      </Container>
+      <div className={styles.headerContainer}>
+        <Container className={styles.heroContainer}>
+          <Text className={styles.heroTextRight}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+            quaerat? Perferendis reiciendis veniam eos iusto at, lauda
+          </Text>
+        </Container>
+      </div>
     </SimpleGrid>
   );
 };

@@ -1,4 +1,4 @@
-import { Container, SimpleGrid, Text, Title } from "@mantine/core";
+import { Container, SimpleGrid, Text } from "@mantine/core";
 import { useEffect } from "react";
 
 //gsap
@@ -39,8 +39,8 @@ const Header = () => {
           </div>
         </Container>
         <Container size="lg" className={styles.heroContainer}>
-          <Title className={styles.heroText}>Welcome to the portfolio</Title>
-          <Text className={styles.heroText}>I'm building a portfolio</Text>
+          <Text className={styles.heroText}>Construyendo Responsablemente</Text>
+          <Text className={styles.heroText}>Construcciones NAME</Text>
         </Container>
         <Container className={styles.navBottomLinks}>
           <a href="#home">Home</a>
