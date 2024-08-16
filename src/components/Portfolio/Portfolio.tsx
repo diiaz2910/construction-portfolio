@@ -1,12 +1,11 @@
 import { Container, SimpleGrid, Text } from "@mantine/core";
-import { Carousel } from "@mantine/carousel";
 
 //gsap
 
 //styles
 import styles from "./Portfolio.module.css";
 
-const Hero = () => {
+const Portfolio = () => {
   return (
     <SimpleGrid>
       <div className={styles.headerContainer}>
@@ -26,15 +25,15 @@ const Hero = () => {
             Reprehenderit molestiae unde consequatur.
             <h6>Description - Location</h6>
           </Text>
+          <div>
+            <Container className={styles.carouselContainer}>
+              <Text>Carousel</Text>
+            </Container>
+          </div>
         </Container>
-        <Carousel slideSize="70%" height={200} slideGap="md" withIndicators>
-          <Carousel.Slide>1</Carousel.Slide>
-          <Carousel.Slide>2</Carousel.Slide>
-          <Carousel.Slide>3</Carousel.Slide>
-        </Carousel>
       </div>
     </SimpleGrid>
   );
 };
 
-export default Hero;
+export default Portfolio;
