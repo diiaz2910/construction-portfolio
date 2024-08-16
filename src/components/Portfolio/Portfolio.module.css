@@ -1,7 +1,6 @@
 .headerContainer {
   width: 90%;
   margin: 0 auto;
-  /* Color verde oscuro fondo contenedor 3 */
   background-color: rgba(54, 55, 51, 255);
   padding: 5px 0;
   border-radius: 1em;
@@ -66,10 +65,10 @@
 .carouselContainer {
   border-bottom: 2px solid #ffffff;
   border-top: 2px solid #ffffff;
-  margin-top: 22em;
+  bottom: 2em;
+  right: 2em;
   width: 100%;
   max-width: 500px;
   height: 300px;
-  margin-left: 38em;
   position: absolute;
 }

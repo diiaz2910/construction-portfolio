@@ -38,7 +38,7 @@ const Header = () => {
             <Text className={styles.logoText}>Agenda una llamada</Text>
           </div>
         </Container>
-        <Container size="lg" className={styles.heroContainer}>
+        <Container className={styles.heroContainer}>
           <Text className={styles.heroText}>Construyendo Responsablemente</Text>
           <Text className={styles.heroText}>Construcciones NAME</Text>
         </Container>
@@ -48,26 +48,23 @@ const Header = () => {
           <a href="#home">Home</a>
         </Container>
         <Container className={styles.navBottomRight}>
-          <div className="slider">
-            <div className="slide">
+          <div>
+            <div>
               <img src="path/to/image1.jpg" alt="" />
-              <div className="slideText">
+              <div>
                 <h3>lorem1</h3>
-                <p>Lorem1</p>
               </div>
             </div>
-            <div className="slide">
+            <div>
               <img src="path/to/image2.jpg" alt="" />
-              <div className="slideText">
+              <div>
                 <h3>lorem2</h3>
-                <p>lorem2</p>
               </div>
             </div>
-            <div className="slide">
+            <div>
               <img src="path/to/image3.jpg" alt="" />
-              <div className="slideText">
+              <div>
                 <h3>lorem3</h3>
-                <p>lorem3</p>
               </div>
             </div>
           </div>

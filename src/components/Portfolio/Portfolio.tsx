@@ -25,11 +25,9 @@ const Portfolio = () => {
             Reprehenderit molestiae unde consequatur.
             <h6>Description - Location</h6>
           </Text>
-          <div>
-            <Container className={styles.carouselContainer}>
-              <Text>Carousel</Text>
-            </Container>
-          </div>
+        </Container>
+        <Container className={styles.carouselContainer}>
+          <Text>Carousel</Text>
         </Container>
       </div>
     </SimpleGrid>
