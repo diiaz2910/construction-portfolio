@@ -8,6 +8,10 @@ import Header from "./components/Header/Header";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Projects from "./components/Projects/Projects";
 
+// styles
+import "./styles/globals.css";
+import "@mantine/core/styles.css";
+
 const App = () => {
   useEffect(() => {
     gsap.fromTo("h1", { opacity: 0 }, { opacity: 1, duration: 1 });
